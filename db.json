@@ -1,32 +1,45 @@
 {
-    "produtos": [
-      {
-        "id": 1,
-        "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYK2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1567304928359",
-        "name":"IPhone",
-        "description": "Descrição do produto",
-        "price": 8000
-      },
-      {
-        "id": 2,
-        "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYK2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1567304928359",
-        "name":"Galaxy",
-        "description": "Descrição do produto",
-        "price": 3000
-      },
-      {
-        "id": 3,
-        "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYK2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1567304928359",
-        "name":"Galaxy",
-        "description": "Descrição do produto",
-        "price": 3000
-      },
-      {
-        "id": 4,
-        "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWYK2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1567304928359",
-        "name":"Galaxy",
-        "description": "Descrição do produto",
-        "price": 3000
-      }
-    ]  
-  }
+    "produtos": [{
+            "id": 1,
+            "photo": "https://i.imgur.com/tzJu13m.png",
+            "name": "Video Game - Atari 2600",
+            "description": "Descrição do produto",
+            "price": 699.00
+        },
+        {
+            "id": 2,
+            "photo": "https://i.imgur.com/vG7RCtY.png",
+            "name": "Video Game - Playstation",
+            "description": "Descrição do produto",
+            "price": 889.99
+        },
+        {
+            "id": 3,
+            "photo": "https://i.imgur.com/xlntNl2.png",
+            "name": "Video Game - Nintendo 64",
+            "description": "Descrição do produto",
+            "price": 685.99
+        },
+        {
+            "id": 4,
+            "photo": "https://i.imgur.com/KGGNgKi.png",
+            "name": "Video Game - Super Nintendo",
+            "description": "Descrição do produto",
+            "price": 947.99
+        },
+        {
+            "id": 5,
+            "photo": "https://i.imgur.com/id69dYT.png",
+            "name": "Video Game - Mega Drive",
+            "description": "Descrição do produto",
+            "price": 1238.99
+        },
+        {
+            "id": 6,
+            "photo": "https://i.imgur.com/b5mHRMF.png",
+            "name": "Video Game - NES",
+            "description": "Descrição do produto",
+            "price": 479.99
+        }
+    ]
+}
