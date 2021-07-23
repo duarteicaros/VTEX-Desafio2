@@ -1,7 +1,7 @@
 {
     "produtos": [{
             "id": 1,
-            "photo": "https://i.imgur.com/FM4mLIj.png",
+            "photo": "https://i.imgur.com/tzJu13m.png",
             "name": "Video Game - Atari 2600",
             "description": "Descrição do produto",
             "price": 699.00
