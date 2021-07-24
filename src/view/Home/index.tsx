@@ -5,6 +5,45 @@ import { Container } from './style';
 import api from '../../services/api';
 import api2 from '../../services/api2';
 
+const produtosF1 = [{
+    "id": 1,
+    "photo": "https://i.imgur.com/tzJu13m.png",
+    "name": "Video Game - Atari 2600",
+    "price": 699.00
+},
+{
+    "id": 2,
+    "photo": "https://i.imgur.com/vG7RCtY.png",
+    "name": "Video Game - Playstation",
+    "price": 889.99
+},
+{
+    "id": 3,
+    "photo": "https://i.imgur.com/xlntNl2.png",
+    "name": "Video Game - Nintendo 64",
+    "price": 685.99
+}]
+
+const produtos2 = [{
+    "id": 4,
+    "photo": "https://i.imgur.com/KGGNgKi.png",
+    "name": "Video Game - Super Nintendo",
+    "price": 947.99
+},
+{
+    "id": 5,
+    "photo": "https://i.imgur.com/id69dYT.png",
+    "name": "Video Game - Mega Drive",
+    "price": 1238.99
+},
+{
+    "id": 6,
+    "photo": "https://i.imgur.com/b5mHRMF.png",
+    "name": "Video Game - NES",
+    "price": 479.99
+}   
+]
+
 interface IProduct {
     id: number;
     photo: string;
@@ -68,9 +107,9 @@ const Home: React.FC = () => {
 
             <div >
                 <section>
-                    {data.length > 0 ? (
+                    {produtosF1.length > 0 ? (
                         <>
-                            {data.map((prod, index) => ( 
+                            {produtosF1.map((prod, index) => ( 
                                     <div className="product-content" key={prod.id}>
                                         <img className="img_prod" src={prod.photo} alt=" iphone" width="200" height="auto" />
                                         <h4 className="description">{prod.name}</h4>
@@ -86,9 +125,9 @@ const Home: React.FC = () => {
             </div>
             <div >
                 <section>
-                    {data2.length > 0 ? (
+                    {produtos2.length > 0 ? (
                         <>
-                            {data2.map((prod, index) => ( 
+                            {produtos2.map((prod, index) => ( 
                                     <div className="product-content" key={prod.id}>
                                         <img className="img_prod" src={prod.photo} alt=" iphone" width="200" height="auto" />
                                         <h4 className="description">{prod.name}</h4>
