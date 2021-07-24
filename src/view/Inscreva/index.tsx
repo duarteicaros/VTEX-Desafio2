@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Container } from './style';
 import newId from '../../services/ids'
@@ -30,7 +30,7 @@ function Inscreva(){
 
     function handleCustomer() {
         notErro();
-        if(name == '' || email ==''){
+        if(name === '' || email === ''){
             return erro();
         }else{
             let id = newId();

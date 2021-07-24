@@ -9,7 +9,6 @@ interface IProduct {
     id: number;
     photo: string;
     name: string;
-    description: string;
     price: number;
 }
 
@@ -38,9 +37,9 @@ const Home: React.FC = () => {
     const handleCart = (index: number) => {
         let productStore = JSON.stringify(data[index]);
         let product = data[index];
-        let push: any = [...cart, cart.push(product)]
+        let push: any = [...cart, cart.push(product)];
         productStore = JSON.stringify(cart);
-        localStorage.setItem('@cart', productStore)
+        localStorage.setItem('@cart', productStore);
     }
     const handleCart2 = (index: number) => {
         let productStore = JSON.stringify(data2[index]);

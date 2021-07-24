@@ -1,6 +1,6 @@
 let lastId = 0;
 
-export default function() {
+export default function Id() {
 lastId++;
 
 return lastId;
