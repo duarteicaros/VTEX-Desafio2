@@ -94,7 +94,7 @@ export const Container = styled.div`
         }
 
         .img_prod {
-            width: 23rem;
+            width: 20rem;
         }
 
         .description {

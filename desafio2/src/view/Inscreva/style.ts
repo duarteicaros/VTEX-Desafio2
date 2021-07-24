@@ -90,13 +90,14 @@ export const Container = styled.div`
     #mesage-error {
         font-size: 1rem;
         color: rgb(194, 35, 35);
-        justify-content: center;
-        align-items: center;
         letter-spacing: 0.2rem;
         font-weight: bold;
+        padding-bottom: 0.3rem;
+        margin-left: 0.5rem;
     }
 
     #submit {
+        cursor: pointer;
         background-color: #FFC801;
         color: #000;
         border-radius: 2px;
@@ -109,5 +110,28 @@ export const Container = styled.div`
         background-color: #000;
         color: #FFC801;
         border-radius: 2px;
+    }
+    .novidades {
+        font-size: 1.5rem;
+        color: #ffffff;
+        letter-spacing: 0.5rem;
+        padding-left: 8rem;
+        margin-bottom: 0.5rem;
+        margin-top: -2rem;
+    }
+    .concluido{
+        font-size: 1.5rem;
+        color: #ffffff;
+        letter-spacing: 0.3rem;
+        padding-left: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top: -2rem;
+    }
+    .cadastre-amigo{
+        font-size: 1rem;
+        color: #FFC801;
+        padding-left: 14rem;
+        margin-bottom: 0.3rem;
+        margin-top: -0.5rem;
     }
 `

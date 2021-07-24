@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Routes from './routes';
 
 
-const App: React.FC = () => {
+function App() {
   return (
     <>
     <Header/>

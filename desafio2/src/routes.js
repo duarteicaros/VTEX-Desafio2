@@ -8,8 +8,8 @@ function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route path='/' exact component={Home}/>
-                <Route path='/inscreva' component={Inscreva}/>
+                <Route path='/home'  component={Home}/>
+                <Route path='/' exact component={Inscreva}/>
             </Switch>
         </BrowserRouter>
     );

@@ -10,8 +10,8 @@ export default function Header() {
             </header>
 
             <Article>
-                <a className="menu" href="/">Home</a>
-                <a className="menu" href="/inscreva">Se inscreva</a>
+                <a className="menu" href="/home">Home</a>
+                <a className="menu" href="/">Se inscreva</a>
             </Article>
 
         </AreaHeader>
