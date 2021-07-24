@@ -21,8 +21,15 @@ function Inscreva(){
         );
         ReactDOM.render(errorelement, document.getElementById('mesage-error'));
     }
+    function notErro() {
+        const errorelement = (
+            <p id="mesage-error"></p>
+        );
+        ReactDOM.render(errorelement, document.getElementById('mesage-error'));
+    }
 
     function handleCustomer() {
+        notErro();
         if(name == '' || email ==''){
             return erro();
         }else{
