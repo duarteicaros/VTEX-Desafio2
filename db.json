@@ -1,5 +1,5 @@
 {
-    "produtos1": [{
+    "produtos-F1": [{
             "id": 1,
             "photo": "https://i.imgur.com/tzJu13m.png",
             "name": "Video Game - Atari 2600",
@@ -21,7 +21,7 @@
             "price": 685.99
         }
     ],
-    "produtos2": [{
+    "produtos-F2": [{
             "id": 4,
             "photo": "https://i.imgur.com/KGGNgKi.png",
             "name": "Video Game - Super Nintendo",
