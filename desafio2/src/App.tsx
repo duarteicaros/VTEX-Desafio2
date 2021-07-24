@@ -1,9 +1,16 @@
 import React from 'react';
-import Home from './view/Home'
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Routes from './routes';
+
 
 const App: React.FC = () => {
   return (
-    <Home />
+    <>
+    <Header/>
+    <Routes/>
+    <Footer/>
+    </>
   );
 }
 
