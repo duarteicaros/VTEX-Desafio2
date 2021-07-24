@@ -21,6 +21,11 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ]
+    "src",
+  ],
+  "rules": {
+    
+    "no-unused-vars": "off"
+    
+  }
 }
