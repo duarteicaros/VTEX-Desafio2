@@ -18,7 +18,7 @@ const Home: React.FC = () => {
     const [cart] = useState<IProduct[]>([]);
 
     useEffect(() => {
-        api.get('').then(
+        api.get('/produtos-F1').then(
             response => {
                 setData(response.data)
             }
@@ -26,7 +26,7 @@ const Home: React.FC = () => {
     }, [])
 
     useEffect(() => {
-        api2.get('').then(
+        api2.get('/produtos-F2').then(
             response => {
                 setData2(response.data)
             }
