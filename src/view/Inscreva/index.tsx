@@ -10,7 +10,7 @@ interface ICustomer {
 }
 
 function Inscreva(){
-    const [usuario, setData] = useState<ICustomer[]>([])
+    const [usuario] = useState<ICustomer[]>([])
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     
@@ -41,7 +41,8 @@ function Inscreva(){
             };
             let Customer = JSON.stringify(data);
             let product = data;
-            let push: any = [...usuario, usuario.push(product)]
+            let push: any = [...usuario, usuario.push(product)];
+            Customer = push;
             Customer = JSON.stringify(usuario);
             localStorage.setItem('@Usuarios', Customer);
 

@@ -38,6 +38,7 @@ const Home: React.FC = () => {
         let productStore = JSON.stringify(data[index]);
         let product = data[index];
         let push: any = [...cart, cart.push(product)];
+        productStore = push;
         productStore = JSON.stringify(cart);
         localStorage.setItem('@cart', productStore);
     }
@@ -45,6 +46,7 @@ const Home: React.FC = () => {
         let productStore = JSON.stringify(data2[index]);
         let product = data2[index];
         let push: any = [...cart, cart.push(product)]
+        productStore = push;
         productStore = JSON.stringify(cart);
         localStorage.setItem('@cart', productStore)
     }
