@@ -33,13 +33,13 @@ git clone https://github.com/duarteicaros/VTEX-Desafio2
 npm install
 ```
 
-> VAgora é só dar o play.
+> Agora é só dar o play.
 ```sh
 #Rodando o Projeto
 npm start
 ```
 
-> Consulte o resultado.
+> Consulte o resultado no seu navegador.
 ```sh
 #Agora é só conferir
 http://localhost:3000/
