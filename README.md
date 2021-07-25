@@ -1,3 +1,13 @@
+<h1 align="center">Gama Academy | Hiring Coders</h1>
+<h2 align="center"><img src='https://i.imgur.com/xBVaR2F.png'>Duarte Shop - Ecommerce</h2>
+
+<p align="center">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/duarteicaros/VTEX-Desafio2?color=orange">
+  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/duarteicaros/VTEX-Desafio2?color=orange">
+  <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/duarteicaros/VTEX-Desafio2?color=orange">
+</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
