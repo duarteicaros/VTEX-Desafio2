@@ -5,45 +5,6 @@ import { Container } from './style';
 import api from '../../services/api';
 import api2 from '../../services/api2';
 
-// const produtosF1 = [{
-//     "id": 1,
-//     "photo": "https://i.imgur.com/tzJu13m.png",
-//     "name": "Video Game - Atari 2600",
-//     "price": 699.00
-// },
-// {
-//     "id": 2,
-//     "photo": "https://i.imgur.com/vG7RCtY.png",
-//     "name": "Video Game - Playstation",
-//     "price": 889.99
-// },
-// {
-//     "id": 3,
-//     "photo": "https://i.imgur.com/xlntNl2.png",
-//     "name": "Video Game - Nintendo 64",
-//     "price": 685.99
-// }]
-
-// const produtos2 = [{
-//             "id": 4,
-//             "photo": "https://i.imgur.com/KGGNgKi.png",
-//             "name": "Video Game - Super Nintendo",
-//             "price": 947.99
-//         },
-//         {
-//             "id": 5,
-//             "photo": "https://i.imgur.com/id69dYT.png",
-//             "name": "Video Game - Mega Drive",
-//             "price": 1238.99
-//         },
-//         {
-//             "id": 6,
-//             "photo": "https://i.imgur.com/b5mHRMF.png",
-//             "name": "Video Game - NES",
-//             "price": 479.99
-//         }   
-//     ]
-
 interface IProduct {
     id: number;
     photo: string;
