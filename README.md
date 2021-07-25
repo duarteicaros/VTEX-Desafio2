@@ -1,5 +1,5 @@
 <h1 align="center">Gama Academy | Hiring Coders</h1>
-<h2 align="center"><img src='https://i.imgur.com/xBVaR2F.png'>Duarte Shop - Ecommerce</h2>
+<h2 align="center"><img src='https://i.imgur.com/xBVaR2F.png' width='1rem'>Duarte Shop - Ecommerce</h2>
 
 <p align="center">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/duarteicaros/VTEX-Desafio2?color=orange">
