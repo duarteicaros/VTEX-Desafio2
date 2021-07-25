@@ -24,7 +24,7 @@ const produtosF1 = [{
     "price": 685.99
 }]
 
-const produtos2 = [{
+const produtosF2 = [{
     "id": 4,
     "photo": "https://i.imgur.com/KGGNgKi.png",
     "name": "Video Game - Super Nintendo",
@@ -73,17 +73,34 @@ const Home: React.FC = () => {
     }, [])
 
     
+    // const handleCart = (index: number) => {
+    //     let productStore = JSON.stringify(data[index]);
+    //     let product = data[index];
+    //     let push: any = [...cart, cart.push(product)];
+    //     productStore = push;
+    //     productStore = JSON.stringify(cart);
+    //     localStorage.setItem('@cart', productStore);
+    // }
+    // const handleCart2 = (index: number) => {
+    //     let productStore = JSON.stringify(data2[index]);
+    //     let product = data2[index];
+    //     let push: any = [...cart, cart.push(product)]
+    //     productStore = push;
+    //     productStore = JSON.stringify(cart);
+    //     localStorage.setItem('@cart', productStore)
+    // }
+
     const handleCart = (index: number) => {
-        let productStore = JSON.stringify(data[index]);
-        let product = data[index];
+        let productStore = JSON.stringify(produtosF1[index]);
+        let product = produtosF1[index];
         let push: any = [...cart, cart.push(product)];
         productStore = push;
         productStore = JSON.stringify(cart);
         localStorage.setItem('@cart', productStore);
     }
     const handleCart2 = (index: number) => {
-        let productStore = JSON.stringify(data2[index]);
-        let product = data2[index];
+        let productStore = JSON.stringify(produtosF2[index]);
+        let product = produtosF2[index];
         let push: any = [...cart, cart.push(product)]
         productStore = push;
         productStore = JSON.stringify(cart);
@@ -125,9 +142,9 @@ const Home: React.FC = () => {
             </div>
             <div >
                 <section>
-                    {produtos2.length > 0 ? (
+                    {produtosF2.length > 0 ? (
                         <>
-                            {produtos2.map((prod, index) => ( 
+                            {produtosF2.map((prod, index) => ( 
                                     <div className="product-content" key={prod.id}>
                                         <img className="img_prod" src={prod.photo} alt=" iphone" width="200" height="auto" />
                                         <h4 className="description">{prod.name}</h4>
