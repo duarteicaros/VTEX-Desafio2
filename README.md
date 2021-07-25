@@ -11,6 +11,8 @@
 
 Projeto desenvolvido com React, idealizado para fins de critério avaliativo na primeira fase do programa Hiringi Coders2 da VTEX e parceiros, juntamente com a Gama Academy. O objetivo desse projeto é colocar em prática os ensinamentos sobre programação e o quão divertido isso pode ser!
 
+#### Algumas de suas funções
+
 
 ## Visite o site
 
@@ -20,7 +22,7 @@ https://duarteshop.netlify.app/
 
 ```
 
-#### :gear: Rodando o projeto localmente:
+#### :gear: Rodando o projeto:
 > Vamos clonar o repositório.
 ```sh
 # Clonando o repositório
