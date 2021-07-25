@@ -27,20 +27,20 @@ https://duarteshop.netlify.app/
 git clone https://github.com/duarteicaros/VTEX-Desafio2
 ```
 
+> É preciso instalar algumas dependências antes.
 ```sh
-> Vamos clonar o repositório.
 # Instalando dependências
 npm install
 ```
 
+> VAgora é só dar o play.
 ```sh
-> Vamos clonar o repositório.
 #Rodando o Projeto
 npm start
 ```
 
+> Consulte o resultado.
 ```sh
-> Vamos clonar o repositório.
 #Agora é só conferir
 http://localhost:3000/
 ```
