@@ -7,8 +7,9 @@
   <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/duarteicaros/VTEX-Desafio2?color=orange">
 </p>
 
+<br>
 
-### :dart: Resultado:
+### :dart: Confira o Resultado:
 
 https://duarteshop.netlify.app/
 
