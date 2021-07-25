@@ -5,44 +5,44 @@ import { Container } from './style';
 import api from '../../services/api';
 import api2 from '../../services/api2';
 
-const produtosF1 = [{
-    "id": 1,
-    "photo": "https://i.imgur.com/tzJu13m.png",
-    "name": "Video Game - Atari 2600",
-    "price": 699.00
-},
-{
-    "id": 2,
-    "photo": "https://i.imgur.com/vG7RCtY.png",
-    "name": "Video Game - Playstation",
-    "price": 889.99
-},
-{
-    "id": 3,
-    "photo": "https://i.imgur.com/xlntNl2.png",
-    "name": "Video Game - Nintendo 64",
-    "price": 685.99
-}]
+// const produtosF1 = [{
+//     "id": 1,
+//     "photo": "https://i.imgur.com/tzJu13m.png",
+//     "name": "Video Game - Atari 2600",
+//     "price": 699.00
+// },
+// {
+//     "id": 2,
+//     "photo": "https://i.imgur.com/vG7RCtY.png",
+//     "name": "Video Game - Playstation",
+//     "price": 889.99
+// },
+// {
+//     "id": 3,
+//     "photo": "https://i.imgur.com/xlntNl2.png",
+//     "name": "Video Game - Nintendo 64",
+//     "price": 685.99
+// }]
 
-const produtosF2 = [{
-    "id": 4,
-    "photo": "https://i.imgur.com/KGGNgKi.png",
-    "name": "Video Game - Super Nintendo",
-    "price": 947.99
-},
-{
-    "id": 5,
-    "photo": "https://i.imgur.com/id69dYT.png",
-    "name": "Video Game - Mega Drive",
-    "price": 1238.99
-},
-{
-    "id": 6,
-    "photo": "https://i.imgur.com/b5mHRMF.png",
-    "name": "Video Game - NES",
-    "price": 479.99
-}   
-]
+// const produtos2 = [{
+//             "id": 4,
+//             "photo": "https://i.imgur.com/KGGNgKi.png",
+//             "name": "Video Game - Super Nintendo",
+//             "price": 947.99
+//         },
+//         {
+//             "id": 5,
+//             "photo": "https://i.imgur.com/id69dYT.png",
+//             "name": "Video Game - Mega Drive",
+//             "price": 1238.99
+//         },
+//         {
+//             "id": 6,
+//             "photo": "https://i.imgur.com/b5mHRMF.png",
+//             "name": "Video Game - NES",
+//             "price": 479.99
+//         }   
+//     ]
 
 interface IProduct {
     id: number;
@@ -73,34 +73,17 @@ const Home: React.FC = () => {
     }, [])
 
     
-    // const handleCart = (index: number) => {
-    //     let productStore = JSON.stringify(data[index]);
-    //     let product = data[index];
-    //     let push: any = [...cart, cart.push(product)];
-    //     productStore = push;
-    //     productStore = JSON.stringify(cart);
-    //     localStorage.setItem('@cart', productStore);
-    // }
-    // const handleCart2 = (index: number) => {
-    //     let productStore = JSON.stringify(data2[index]);
-    //     let product = data2[index];
-    //     let push: any = [...cart, cart.push(product)]
-    //     productStore = push;
-    //     productStore = JSON.stringify(cart);
-    //     localStorage.setItem('@cart', productStore)
-    // }
-
     const handleCart = (index: number) => {
-        let productStore = JSON.stringify(produtosF1[index]);
-        let product = produtosF1[index];
+        let productStore = JSON.stringify(data[index]);
+        let product = data[index];
         let push: any = [...cart, cart.push(product)];
         productStore = push;
         productStore = JSON.stringify(cart);
         localStorage.setItem('@cart', productStore);
     }
     const handleCart2 = (index: number) => {
-        let productStore = JSON.stringify(produtosF2[index]);
-        let product = produtosF2[index];
+        let productStore = JSON.stringify(data2[index]);
+        let product = data2[index];
         let push: any = [...cart, cart.push(product)]
         productStore = push;
         productStore = JSON.stringify(cart);
@@ -124,9 +107,9 @@ const Home: React.FC = () => {
 
             <div >
                 <section>
-                    {produtosF1.length > 0 ? (
+                    {data.length > 0 ? (
                         <>
-                            {produtosF1.map((prod, index) => ( 
+                            {data.map((prod, index) => ( 
                                     <div className="product-content" key={prod.id}>
                                         <img className="img_prod" src={prod.photo} alt=" iphone" width="200" height="auto" />
                                         <h4 className="description">{prod.name}</h4>
@@ -142,9 +125,9 @@ const Home: React.FC = () => {
             </div>
             <div >
                 <section>
-                    {produtosF2.length > 0 ? (
+                    {data2.length > 0 ? (
                         <>
-                            {produtosF2.map((prod, index) => ( 
+                            {data2.map((prod, index) => ( 
                                     <div className="product-content" key={prod.id}>
                                         <img className="img_prod" src={prod.photo} alt=" iphone" width="200" height="auto" />
                                         <h4 className="description">{prod.name}</h4>
