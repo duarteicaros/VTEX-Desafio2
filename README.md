@@ -20,21 +20,29 @@ https://duarteshop.netlify.app/
 
 ```
 
-#### :gear: Backend:
+#### :gear: Rodando o projeto localmente:
 > Vamos clonar o repositório.
 ```sh
 # Clonando o repositório
 git clone https://github.com/duarteicaros/VTEX-Desafio2
+```
 
+```sh
+> Vamos clonar o repositório.
 # Instalando dependências
 npm install
+```
 
+```sh
+> Vamos clonar o repositório.
 #Rodando o Projeto
 npm start
+```
 
+```sh
+> Vamos clonar o repositório.
 #Agora é só conferir
 http://localhost:3000/
-
 ```
 
 
