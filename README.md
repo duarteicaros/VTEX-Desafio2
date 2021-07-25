@@ -11,7 +11,12 @@
 
 Projeto desenvolvido com React, idealizado para fins de critério avaliativo na primeira fase do programa Hiringi Coders2 da VTEX e parceiros, juntamente com a Gama Academy. O objetivo desse projeto é colocar em prática os ensinamentos sobre programação e o quão divertido isso pode ser!
 
-#### Algumas de suas funções
+#### Informações e Funcionalidades
++ Ao iniciar você é direcionado para a página de cadastro, onde é possível fazer sua inscrição
+- Existem tratativas de erros para que você não faça o cadastro sem ter preenchido os campos
+= Vale lembrar que os dados são salvo diretamente no localstorage
+* Ao clicarmos em `Home` no header você será direcionado para a página de produtos
+/ Onde ao clicar em comprar algum produto, ele será armazenado em um array no localstorage também
 
 
 ## Visite o site
