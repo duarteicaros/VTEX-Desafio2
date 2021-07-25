@@ -7,11 +7,36 @@
   <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/duarteicaros/VTEX-Desafio2?color=orange">
 </p>
 
-<br>
+## Descrição
 
-### :dart: Confira o Resultado:
+Projeto desenvolvido com React, idealizado para fins de critério avaliativo na primeira fase do programa Hiringi Coders2 da VTEX e parceiros, juntamente com a Gama Academy. O objetivo desse projeto é colocar em prática os ensinamentos sobre programação e o quão divertido isso pode ser!
 
+
+## Visite o site
+
+> Acesso o link
+```sh
 https://duarteshop.netlify.app/
+
+```
+
+#### :gear: Backend:
+> Vamos clonar o repositório.
+```sh
+# Clonando o repositório
+git clone https://github.com/duarteicaros/VTEX-Desafio2
+
+# Instalando dependências
+npm install
+
+#Rodando o Projeto
+npm start
+
+#Agora é só conferir
+http://localhost:3000/
+
+```
+
 
 
 
